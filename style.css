@@ -46,9 +46,10 @@ h2 strong {
 
 .btn-group {
     margin-top: 50px;
+    margin-right: 150px;
     height: 40px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 button {
@@ -70,10 +71,12 @@ button:active {
 
 button.yes-btn {
     background: #e94d58;
+    
 }
 
 button.no-btn {
     background: white;
     color: #e94d58;
     position: absolute;
+    bottom: 100;
 }
